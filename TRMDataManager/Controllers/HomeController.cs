@@ -18,7 +18,7 @@ namespace TRMDataManager.Controllers
             //HTTP GET
             var responseTask = client.GetAsync("values");
             responseTask.Wait();
-
+            //shams
             var result = responseTask.Result;
             if (result.IsSuccessStatusCode)
             {
